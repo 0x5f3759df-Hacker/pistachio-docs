@@ -22,10 +22,11 @@ This document illustrates the architecture design of Pistachio.
 ##MVVM architecture
 
 ##Performance optimization
+
 ###CSS/JS Code optimization
-
+Compressing and streamlining the CSS/JS code, eliminating duplicated and unused code, merging the code via optimization and build. These could minimize the number of http requests.
 ###Using CDN
-
+The essence of CDN is cache. CDN caches data where approach to users, thus providing the fastest access to resources for users. When deploying our service online, we will take advantage of Baidu CDN image to speed up.
 ###Resource loading order adjustment
 
 ---
@@ -85,7 +86,7 @@ The backend part process automatic building and testing with Gradle. Here is the
 
 ##Continuous integration
 
-Pistachio uses [Travis CI](https://travis-ci.com) and [AppVeyor](https://ci.appveyor.com/) to process automatic continuous integration. Every time the developer pushs a branch, the CI components will automatic build the project as well as return the build feedback timely.
+Pistachio uses [Travis CI](https://travis-ci.com) and [AppVeyor](https://ci.appveyor.com/) to process automatic continuous integration. Every time the we push a branch, the CI components will automatically build the project as well as return the build feedback timely.
 
 ##Delivery and deployment
 
