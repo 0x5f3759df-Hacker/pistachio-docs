@@ -49,6 +49,9 @@ This document illustrates the architecture design of Pistachio.
 ##Distributed architecture
 
 ##High performance architecture
+###Code optimization
+
+###JVM optimization
 
 ---
 
