@@ -54,6 +54,11 @@ The essence of CDN is cache. CDN caches data where approach to users, thus provi
 
 ###JVM optimization
 
+- Java Heap : pending (plan, 2048MB -> Standalone)
+- Java E:S ratio : pending -> default
+- Java promotion threshold : pending
+- GC : Parallel Scavenge + Concurrent Mark-Sweep
+
 ---
 
 #III.Build, delivery and deployment
